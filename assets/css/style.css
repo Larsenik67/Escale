@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+
+*  {
+    font-family: 'Caveat';
+    color: blanchedalmond;
+    font-size: xx-large;
+}
+
+body {
+    background-color: black;
+    width: 216mm;
+    height: 297mm;
+    border: #f9d703 solid 5px;
+}
+
+.logo img{
+    position: relative;
+    width: 30%;
+    left: 35%;
+    text-align: center;
+}
