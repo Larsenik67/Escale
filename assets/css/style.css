@@ -11,11 +11,11 @@
     text-align: center;
 }
 
-body {
+html body {
+    width: 21.0cm;
+    height: 29.7cm;
     background-color: black;
-    width: 216mm;
-    height: 297mm;
-    border: #f9d703 solid 5px;
+    border: #f9d703 solid 1px;
 }
 
 .logo img{
@@ -48,5 +48,5 @@ hr {
 
 .menu {
     border:white solid 2px;
-    max-width: 50%;
+    margin: 0 auto;
 }
