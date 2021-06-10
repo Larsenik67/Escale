@@ -1,5 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 
+html body {
+    width: 21.0cm;
+    height: 29.7cm;
+    background-color: black;
+    border: #f9d703 solid 1px;
+}
+
 *  {
     font-family: 'Alatsi', sans-serif;
     color: blanchedalmond;
@@ -9,13 +16,6 @@
     align-items: center;
     align-content: center;
     text-align: center;
-}
-
-html body {
-    width: 21.0cm;
-    height: 29.7cm;
-    background-color: black;
-    border: #f9d703 solid 1px;
 }
 
 .logo img{
