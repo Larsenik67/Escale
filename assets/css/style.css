@@ -1,10 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Alatsi&display=swap');
 
-html body {
-    width: 21.0cm;
-    height: 29.7cm;
+html, body {
+    top:0%;
     background-color: black;
-    border: #f9d703 solid 1px;
+    align-content: center;
+    text-align: center;
+}
+
+.image {
+    float:left;
+    width: 100px;
 }
 
 *  {
