@@ -54,4 +54,12 @@ hr {
 .menu {
     border:white solid 2px;
     margin: 0 auto;
+    align-items: center;
+    align-content: center;
+    height: 40%;
+    max-width: 70%;
+}
+
+.samedi {
+    margin-left: 20%;
 }
