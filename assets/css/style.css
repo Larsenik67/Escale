@@ -56,10 +56,6 @@ hr {
     margin: 0 auto;
     align-items: center;
     align-content: center;
-    height: 40%;
+    min-height: 250px;
     max-width: 70%;
-}
-
-.samedi {
-    margin-left: 20%;
 }
