@@ -1,0 +1,137 @@
+<!doctype html>
+
+<html lang="fr">
+    <head>
+        <meta charset="utf-8">
+
+        <title>Menu Escale Grill</title>
+        <meta name="description" content="The HTML5 Herald">
+        <meta name="author" content="SitePoint">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets\css\style.css">
+        <link rel="icon" href="assets\img\logo.jpg">
+    </head>
+
+    <body id="tout" class="my-5">
+        <div class="container">
+            <div class="row my-3">
+                <div class="col">
+                    <p>
+                        <span class="jaune">09 84 41 78 28
+                            <br/>
+                            06 25 84 51 41</span><br/>
+                        <span class="petit">2 rue de l'église saint-joseph,<br/>
+                            67500 Haguenau</span></p>
+                </div>
+                <div class="col logo">
+                    <img src='assets\img\logo.jpg' alt="">
+                </div>
+                <div class="col">
+                    <p>Du mardi au samedi
+                        <br/>
+                        <span class="jaune petit">11:30-14:00, 18:00-22:00</span>
+                        Dimanche
+                        <span class="jaune petit">18:00-22:00</span>
+                        Lundi
+                        <span class="jaune petit">fermé</span></p>
+                </div>
+            </div>
+            <hr/>
+            <h1 class="mb-4 mt-5">Les Plats du Jour</h1>
+            <div class="row">
+                <div class="col menu mx-2 my-3">
+                    <h2 class="jaune mt-2">Mardi</h2>
+                    <p>
+                        <span id="mardi_e"></span></br>
+                        <span id="mardi_p"></span></br>
+                        <span id="mardi_a"></span></br>
+                       Dessert du jour </br>
+                       Thé ou Café </br>
+                       Boisson 33cl au choix 
+                    </p>
+                </div>
+                <div class="col menu mx-2 my-3">
+                    <h2 class="jaune mt-2">Mercredi</h2>
+                    <p><span id="mercredi_e"></span></br>
+                        <span id="mercredi_p"></span></br>
+                        <span id="mercredi_a"></span></br>
+                        Dessert du jour </br>
+                        Thé ou Café </br>
+                        Boisson 33cl au choix
+                    </p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col menu mx-2 my-3">
+                    <h2 class="jaune mt-2">Jeudi</h2>
+                    <p><span id="jeudi_e"></span></br>
+                        <span id="jeudi_p"></span></br>
+                        <span id="jeudi_a"></span></br>
+                        Dessert du jour</br>
+                        Thé ou Café</br>
+                        Boisson 33cl au choix
+                    </p>
+                </div>
+                <div class="col menu mx-2 my-3">
+                    <h2 class="jaune mt-2">Vendredi</h2>
+                    <p><span id="vendredi_e"></span></br>
+                        <span id="vendredi_p"></span></br>
+                        <span id="vendredi_a"></span></br>
+                        Dessert au choix</br>
+                        Thé ou Café</br>
+                        Boisson 33cl au choix
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="my-5 jour">Tous nos plats du jour sont à
+            <span class="jaune jour">12€</span></p>
+            <br/>
+            <br/>
+            <br/>
+            <br/>
+            <form action="" method="get" class="my-5 formulaire">
+                <div class="my-3">
+                  <label class="my-1" for="mardi">Mardi: </label></br>
+                  <label for="mardi_e">Entrée: </label>
+                  <input type="text" name="mardi_e" id="mardi_ee" required></br>
+                  <label for="mardi_p">Plat: </label>
+                  <input type="text" name="mardi_p" id="mardi_pp" required></br>
+                  <label for="mardi_a">Accompagnement: </label>
+                  <input type="text" name="mardi_a" id="mardi_aa" required></br>
+                </div>
+                <div class="my-3">
+                    <label class="my-1" for="mercredi">Mercredi: </label><br/>
+                    <label for="mercredi_e">Entrée: </label>
+                  <input type="text" name="mercredi_e" id="mercredi_ee" required></br>
+                  <label for="mercredi_p">Plat: </label>
+                  <input type="text" name="mercredi_p" id="mercredi_pp" required></br>
+                  <label for="mercredi_a">Accompagnement: </label>
+                  <input type="text" name="mercredi_a" id="mercredi_aa" required></br>
+                  <div class="my-3">
+                    <label class="my-1" for="jeudi">Jeudi: </label><br/>
+                    <label for="jeudi_e">Entrée: </label>
+                  <input type="text" name="jeudi_e" id="jeudi_ee" required></br>
+                  <label for="jeudi_p">Plat: </label>
+                  <input type="text" name="jeudi_p" id="jeudi_pp" required></br>
+                  <label for="jeudi_a">Accompagnement: </label>
+                  <input type="text" name="jeudi_a" id="jeudi_aa" required></br>
+                  </div>
+                <div class="my-3">
+                  <label class="my-1" for="vendredi">Vendredi: </label><br/>
+                  <label for="vendredi_e">Entrée: </label>
+                  <input type="text" name="vendredi_e" id="vendredi_ee" required></br>
+                  <label for="vendredi_p">Plat: </label>
+                  <input type="text" name="vendredi_p" id="vendredi_pp" required></br>
+                  <label for="vendredi_a">Accompagnement: </label>
+                  <input type="text" name="vendredi_a" id="vendredi_aa" required></br>
+                </div>
+                <div class="my-3">
+                  <button type="button" class="btn btn-dark" id="envoyer">Envoyer</button>
+                </div>
+              </form>
+        <script src="assets/js/script.js"></script>
+    </body>
+</html>
