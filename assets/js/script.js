@@ -23,4 +23,5 @@ document.getElementById("envoyer").onclick = function () {
         document.getElementById('vendredi_e').innerHTML = vendredi_e;
         document.getElementById('vendredi_p').innerHTML = vendredi_p;
         document.getElementById('vendredi_a').innerHTML = vendredi_a;
+        window.scrollTo(0, 0);
     }
