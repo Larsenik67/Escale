@@ -1,0 +1,17 @@
+1/ Ouvrez "index.html" avec Google Chrome
+
+2/ Descendez en bas de la page et remplissez le formulaire
+
+3/ Cliquez sur "Envoyer" et vérifié que l'affiche est bien remplis 
+
+4/ Monter au plus haut de la page (TRèS IMPORTANT!!) et faite un clic droit -> "Imprimer.."
+
+5/ Mettez les paramettres suivant:
+
+   - Destination: "Enregistrer au format PDF"
+   - Pages: Personnalisé -> 1
+   - Page par feuille: 1
+   - Marges: Aucune
+   - Option: Coché "Graphique d'arrière-plan"
+
+6/ Cliquez sur "Enregister"
